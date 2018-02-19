@@ -1,0 +1,36 @@
+
+
+ul.nav li {
+  color: white;
+  background-color: red;
+}
+
+ul.nav a {
+    color: white;
+}
+
+.color-info {
+  border-style: solid;
+  border-width: 3px;
+}
+
+#about_blue {
+  background: #6495ED;
+}
+
+#bluelist{
+  color: blue;
+}
+
+#about_yellow {
+  background: #FFEBCD;
+}
+
+#yellowlist {
+  color: orange
+}
+
+.important {
+  font-weight: bold;
+  font-size: 16px;
+}
