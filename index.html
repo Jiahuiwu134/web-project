@@ -2,7 +2,9 @@
 <html>
     <head>
         <title>CSS Exercises 1</title>
+          <link href='css/bootstrap.min.css' rel='stylesheet'>
           <link rel='stylesheet' type='text/css' href='style.css'/>
+
         <style>
             ul.nav li{
                 display: inline-block;
@@ -18,55 +20,96 @@
         </ul>
 
         <div id='page_content'>
-
-            <h1>All about colours</h1>
-
-            <div id='explanation'>
-                <p>This is a page about colours. You need to fix it so that:</p>
-                <ul>
-                    <li>The sections about blue and yellow have 3px solid black borders.</li>
-                    <li>The 'About blue' has a light blue (#6495ED) background.</li>
-                    <li>The 'About yellow' has a light yellow (#FFEBCD) background.</li>
-                    <li>The list of points in the 'About blue' section should be in blue text (but the paragraph text shouldn't be).</li>
-                    <li>The list of points in the 'About yellow' section should be in orange text (but the paragraph text shouldn't be).</li>
-                    <li>The final item in both colour section lists is the most important. It should be in font size 16px, with font weight bold.</li>
-                    <li>The navigation at the top should have a red background with white text.</li>
-                </ul>
-
+          <body style="background-color:bluelist;">
+            <h1 style="text-align:center; color:black;font-size:400%; font-family:calibri">Two Cities</h1>
+            <div class="head1">
+              <img src="twocountries.jpg" alt="Norway" style="width:100%;">
+              <h1 class="centered">two countries, two stories</h1>
             </div>
+          </div>
+            <div class="lalaland">
+            <img src="Singapore.jpg" height="500" width="635" style="float:left">
+            <h1 class="top-left">Singapore</h1>
+            <div class="lalaland">
+            <img src="Lyon.jpg" height="500" width="635">
+            <h1 class="top-right">Lyon</h1>
+            </div>
+          </div>
+
 
             <div>
-
-            <div id='about_blue' class='color-info'>
-                <h2>About blue</h2>
-
-                <p>This section is all about the colour blue. This text should be black.</p>
-
-                <ul>
-                    <li id='bluelist'>This is an unordered list.</li>
-                    <li id='bluelist'>I am doing coding right now.</li>
-                    <li id='bluelist'>The text is quite rubbish.</li>
-                    <li id='bluelist' class='important'>The biggest animal in the world is the elephant.</li>
-                </ul>
-
-            </div>
-
-              <div>
-
-              </div>
-
-            <div id='about_yellow' class='color-info'>
-                <h2>About yellow</h2>
-
-                <p>The section is all about the colour yellow. This text should be black.</p>
-
-                <ul>
-                    <li id='yellowlist'>This is an unordered list.</li>
-                    <li id='yellowlist'>why is this text orange?</li>
-                    <li id='yellowlist' class='important'>The tastiest yellow fruit is the banana - much nicer than lemons.</li>
-                </ul>
-
-            </div>
-
     </body>
+</html>
+<link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+   	<link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
+   	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<section id="contact">
+			<div class="section-content">
+				<h1 class="section-header">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with us</span></h1>
+				<h3>Two Cities will get back to you soon!</h3>
+			</div>
+			<div class="contact-section">
+			<div class="container">
+				<form>
+					<div class="col-md-6 form-line">
+			  			<div class="form-group">
+			  				<label for="exampleInputUsername">Your name</label>
+					    	<input type="text" class="form-control" id="" placeholder="Enter Name">
+				  		</div>
+				  		<div class="form-group">
+					    	<label for="exampleInputEmail">Email Address</label>
+					    	<input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter Email">
+					  	</div>
+
+			  		</div>
+			  		<div id='foo' class="col-md-6">
+			  			<div class="form-group">
+			  				<label for ="description">Message</label>
+			  			 	<textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+			  			</div>
+			  			<div>
+
+			  				<button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>Send Message</button>
+			  			</div>
+
+					</div>
+				</form>
+			</div>
+		</section>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+	<div class="row">
+		 <!-- end nav bar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        <a class="navbar-brand" href="index.html"/></a></div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="topFixedNavbar1">
+        <ul class="nav navbar-nav links">
+          <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="Singapore.html">Singapore</a></li>
+          <li><a href="Lyon.html">Lyon</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+<ul class="nav navbar-nav navbar-right nav-pills">
+                <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-lg fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-lg fa-youtube"></i></a></li>
+</ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+ <!-- end nav bar -->
 </html>
